@@ -181,7 +181,7 @@ const AboutUsPage = () => {
           </div>
         </section>
         
-        {/* Our Team */}
+        {/* Our Team
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
@@ -216,7 +216,7 @@ const AboutUsPage = () => {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
         
         {/* Our Values */}
         <section className="py-20 bg-blue-900 text-white">

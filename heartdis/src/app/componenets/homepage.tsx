@@ -14,6 +14,7 @@ import Contact from './contactus';
 import About from './aboutus';
 import Register from './register';
 import Login from './login';
+import ChatBot from './chatbot';
 
 
 const HomePage = () => {
@@ -39,13 +40,16 @@ const HomePage = () => {
         <SliderSection />
         <CardInfoSection/>
         <CTASection/> 
+        
         {/* <Contact/>
         {/* <About/> */}  
         {/* <Register/> */}
         {/* <Login/> */}
 
       </main>
-      
+      {/* <div className="fixed bottom-6 right-6 z-50">
+        <ChatBot />
+      </div> */}
       {/* <Footer /> */}
     </SmoothScroll>
   );
