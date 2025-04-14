@@ -160,13 +160,10 @@ const AboutUsPage = () => {
               <div className="lg:w-1/2">
                 <h2 className="text-3xl font-bold mb-6">Our Mission & Story</h2>
                 <p className="text-gray-600 mb-4">
-                  Founded in 2022, HeartHealth began with a simple but powerful idea: what if we could 
-                  predict heart disease before it happens? Our founder, Dr. Sarah Johnson, witnessed 
-                  too many patients arriving with advanced heart conditions that could have been 
-                  prevented with earlier intervention.
+                  Founded in 2025
                 </p>
                 <p className="text-gray-600 mb-6">
-                  Today, we combine advanced AI algorithms with medical expertise to provide accurate 
+                  We combine advanced AI algorithms with medical expertise to provide accurate 
                   heart health assessments and personalized recommendations. Our platform analyzes 
                   various health metrics to identify risk patterns that might otherwise go unnoticed.
                 </p>

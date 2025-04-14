@@ -109,9 +109,9 @@ const StatisticsSection = () => {
   
   const stats = [
     { value: 95, label: "Prediction Accuracy", suffix: "%", delay: 200 },
-    { value: 500000, label: "Lives Impacted", prefix: "", delay: 400 },
+    // { value: 500000, label: "Lives Impacted", prefix: "", delay: 400 },
     { value: 24, label: "Hour Support", suffix: "/7", delay: 600 },
-    { value: 98, label: "Client Satisfaction", suffix: "%", delay: 800 }
+    { value: 90, label: "User Satisfaction", suffix: "%", delay: 800 }
   ];
   
   return (
@@ -126,11 +126,11 @@ const StatisticsSection = () => {
             Our <span className="text-red-500">Impact</span> in Numbers
           </h2>
           <p className="text-gray-600 text-lg">
-            HeartHealth is making a difference in cardiovascular health around the world. Here's how we measure our success.
+            HeartHealth is a difference in cardiovascular health around the world. Here's how we measure our success.
           </p>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="ml-[300px] grid grid-cols-2 md:grid-cols-4 gap-20">
           {stats.map((stat, index) => (
             <Stat
               key={index}

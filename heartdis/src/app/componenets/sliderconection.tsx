@@ -8,37 +8,37 @@ interface TestimonialProps {
   quote: string;
   rating: number;
 }
-
 const testimonials: TestimonialProps[] = [
   {
-    name: "Sarah Johnson",
-    role: "Heart Disease Survivor",
+    name: "Dr. A.P.J. Abdul Kalam",
+    role: "Scientist & Former President",
     image: "/testimonial-1.jpg",
-    quote: "The HeartHealth Predictor detected my risk factors months before I had any symptoms. It literally saved my life.",
+    quote: "Let us give our heart the same care we give our dreams. A healthy heart beats for a purpose.",
     rating: 5
   },
   {
-    name: "Dr. Michael Chen",
-    role: "Cardiologist",
+    name: "Florence Nightingale",
+    role: "Nurse & Social Reformer",
     image: "/testimonial-2.jpg",
-    quote: "I recommend this tool to all my patients. It's impressively accurate and helps them visualize their heart health.",
+    quote: "The very first requirement in a hospital is that it should do the sick no harm. A strong heart begins with prevention.",
     rating: 5
   },
   {
-    name: "Robert Patel",
-    role: "Health Enthusiast",
+    name: "Anonymous",
+    role: "Heart Warrior",
     image: "/testimonial-3.jpg",
-    quote: "The personalized recommendations have helped me improve my heart health metrics significantly in just 3 months.",
+    quote: "Your heart works 24/7 for you. Take a moment each day to return the favor with care and love.",
     rating: 4
   },
   {
-    name: "Emma Wilson",
-    role: "Fitness Coach",
+    name: "Maya Angelou",
+    role: "Poet & Activist",
     image: "/testimonial-4.jpg",
-    quote: "I use this with my clients to track their cardiovascular improvements. The data visualization is fantastic.",
+    quote: "The heart of life is in the rhythm it beats. Keep it strong, and your soul will sing.",
     rating: 5
   }
 ];
+
 
 const SliderSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -99,9 +99,9 @@ const SliderSection = () => {
   return (
     <section className="py-20 bg-gradient-to-r from-red-50 to-blue-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          What Our <span className="text-red-500">Users Say</span>
-        </h2>
+        {/* <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+           <span className="text-red-500">Users Say</span>
+        </h2> */}
         
         <div 
           ref={sliderRef}

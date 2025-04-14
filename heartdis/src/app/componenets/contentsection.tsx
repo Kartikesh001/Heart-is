@@ -93,12 +93,12 @@ const ContentSection = () => {
       description: "Track your heart health metrics over time and receive alerts about significant changes.",
       delay: 400
     },
-    {
-      icon: <Award size={28} />,
-      title: "Personalized Recommendations",
-      description: "Get tailored lifestyle and dietary advice based on your unique heart health profile.",
-      delay: 600
-    },
+    // {
+    //   icon: <Award size={28} />,
+    //   title: "Personalized Recommendations",
+    //   description: "Get tailored lifestyle and dietary advice based on your unique heart health profile.",
+    //   delay: 600
+    // },
     {
       icon: <AlertCircle size={28} />,
       title: "Early Risk Detection",
@@ -117,7 +117,7 @@ const ContentSection = () => {
           How Our <span className="text-red-500">Heart Health Predictor</span> Works
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="ml-[300px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <Feature
               key={index}

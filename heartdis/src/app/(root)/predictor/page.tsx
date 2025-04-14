@@ -378,16 +378,18 @@ export default function HeartDiseasePrediction() {
         )}
         
         {risk !== null && (
-          <div className="mt-8 p-4 bg-red-50 border border-red-200 rounded-lg">
-            <h3 className="text-xl font-bold text-black flex items-center">
-              <span className="mr-2">📊</span>
-              Heart Disease Risk Category: {risk}
-            </h3>
-            <p className="mt-2 text-black">
-              This risk assessment is based on the information you provided. Please consult with a healthcare professional for a comprehensive evaluation.
-            </p>
-          </div>
-        )}
+  <div className="mt-8 p-4 bg-red-50 border border-red-200 rounded-lg">
+    <h3 className="text-xl font-bold text-black flex items-center">
+      <span className="mr-2">📊</span>
+      Heart Disease Risk Category: {risk}
+    </h3>
+    <p className="mt-2 text-black">
+      {risk === 1 && "✅ You are in perfect health. Keep up the great work!"}
+      {risk === 2 && "⚠️ You may have a moderate risk. It's recommended to improve your lifestyle and monitor your health regularly."}
+      {risk === 3 && "🚨 High risk detected. Please consult with a healthcare professional as soon as possible."}
+    </p>
+  </div>
+)}
       </div>
     </div>
   );
