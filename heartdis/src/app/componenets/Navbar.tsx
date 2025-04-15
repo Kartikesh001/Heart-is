@@ -41,7 +41,7 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
-          {['Home', 'About', 'Services', 'Predictor', 'Contact'].map((item) => (
+          {['Home', 'About', 'Heart-Aliment', 'Predictor', 'Contact'].map((item) => (
             <Link 
             href={item === 'Home' ? '/' : `/${item.toLowerCase()}`} 
               key={item}
@@ -73,7 +73,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white shadow-lg absolute top-full left-0 w-full">
           <div className="container mx-auto px-4 py-2">
-            {['Home', 'About', 'Services', 'Predictor', 'Contact'].map((item) => (
+            {['Home', 'About', 'Heart Aliment', 'Predictor', 'Contact'].map((item) => (
               <Link 
                 href={`/${item.toLowerCase()}`} 
                 key={item}

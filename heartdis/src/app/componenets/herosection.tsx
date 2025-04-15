@@ -52,16 +52,17 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/predictor"
-              className="bg-red-500 hover:bg-red-600 text-white px-8 py-3 rounded-full font-medium flex items-center justify-center transition-all duration-300 w-full sm:w-auto"
+              className=" text-[18px] bg-red-500 hover:bg-black-600 text-white px-8 py-3 rounded-full font-medium flex items-center justify-center transition-all duration-300 w-full sm:w-auto"
             >
-              Start Assessment <ArrowRight className="ml-2" size={18} />
+              Start Assessment 
+              {/* <ArrowRight className="ml-2" size={18} /> */}
             </Link>
-            <Link
+            {/* <Link
               href="/learn-more"
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-3 rounded-full font-medium transition-all duration-300 w-full sm:w-auto"
             >
               Learn More
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
